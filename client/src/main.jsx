@@ -9,6 +9,7 @@ import PrintJson from "./ParseJson.jsx";
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>
+        <h1>Proof Of Concept</h1>
         <h2>ReactJS</h2>
         <App />
         <h2>CoffeeAPI Image</h2>
