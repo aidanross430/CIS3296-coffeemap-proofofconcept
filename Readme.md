@@ -54,3 +54,8 @@ On Windows 11, launch the web application locally through:
 cd .\client\
 npm run dev
 ```
+
+## Sources and dependencies:
+* [CoffeeAPI](https://coffee.alexflipnote.dev/)
+* [Leaflet.js](https://leafletjs.com/examples/quick-start/)
+* [CQI Database](https://github.com/jldbc/coffee-quality-database)
