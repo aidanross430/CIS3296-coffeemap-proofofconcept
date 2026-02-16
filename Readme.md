@@ -26,10 +26,13 @@ py -m venv venv
 .\venv\Scripts\activate
 pip install nodeenv==1.10.0
 ```
-Install dependencies with npm
+Install dependencies with npm.
 ```
+cd .\client
+nodeenv -p
 npm install
 ```
+Note: PowerShell may need administrative permissions to run > nodeenv -p
 
 ### The following list describes the npm packages installed for this project. These are additionally detailed in package.json
 * @eslint/js@9.39.2
