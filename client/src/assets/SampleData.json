@@ -1,0 +1,13 @@
+{
+  "country": "Brazil",
+  "flavour-notes": ["fruity", "nutty", "smooth"],
+  "harvest-period-arabica": [{
+    "start": "may",
+    "end": "sep"
+  }],
+  "harvest-period-robusta": [{
+    "start": "mar",
+    "end": "jul"
+  }],
+  "common-varieties": ["yellow-bourbon", "mundo-novo", "catui", "igato"]
+}
