@@ -1,7 +1,8 @@
-import React from 'react'
+import {useState, useEffect} from 'react'
 
 function FetchCoffeeImage() {
-    const coffeeUrl= 'https://coffee.alexflipnote.dev/random'
+    const randomSeed = Date.now()
+    const coffeeUrl= `https://coffee.alexflipnote.dev/random?${randomSeed}`
 
     return(
         <div>
